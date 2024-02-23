@@ -1,0 +1,89 @@
+header{
+    background-color: rgb(15, 15, 15);
+    width: 100%;
+}
+header {
+    display: flex; 
+    justify-content: end;
+    margin: 0 ;
+    max-width: 100%;
+    background-image: url('images/logo_saycherry.png');
+    background-size: 100% 100%; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 60vb;
+  }
+  
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+}
+header ul li{
+    font-size: 16px;
+    margin: 15px;
+header{
+    background-color: rgb(15, 15, 15);
+    width: 100%;
+}
+header {
+    display: flex; 
+    justify-content: end;
+    margin: 0 ;
+    max-width: 100%;
+    background-image: url('images/logo_saycherry.png');
+    background-size: 100% 100%; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 60vb;
+  }
+  
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+}
+header ul li{
+    font-size: 16px;
+    margin: 15px;
+    color: rgb(236, 66, 91);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    font-size: 30px;
+    color: rgb(166, 0, 24);
+    font-family: monospace;
+}
+img{
+    width: 250px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 20px;
+    align-items: stretch;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+.box{
+    flex-grow: 1;
+    border: solid;
+    width: 100%;
+    height:  100%;
+    padding: 30px;
+    margin: 10px; 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 228, 228);
+}
+
+.box p{
+    font-family: 'Courier New', Courier, monospace;
+}
