@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200; 1,300;1,400;1,500;1,600;1,700&display=swap');
+
 header{
     background-color: rgb(15, 15, 15);
     width: 100%;
@@ -52,9 +54,13 @@ header ul li{
 }
 
 h1{
-    font-size: 30px;
+    font-size: 28px;
     color: rgb(166, 0, 24);
-    font-family: monospace;
+    margin: 15px;
+    font-family: "Hepta Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 644;
+    font-style: normal;
 }
 img{
     width: 250px;
@@ -62,19 +68,21 @@ img{
 
 .container{
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: stretch;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+.container2{
+    display: flex;
+    margin: 60px;
     align-items: stretch;
     justify-content: space-between;
     background-color: rgb(255, 255, 255);
 }
 
 .box{
-    flex-grow: 1;
-    border: solid;
-    width: 100%;
-    height:  100%;
     padding: 30px;
     margin: 10px; 
     border-radius: 10px;
@@ -82,9 +90,30 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: solid;
     background-color: rgb(228, 228, 228);
 }
 
-.box p{
-    font-family: 'Courier New', Courier, monospace;
+p{
+    font-family: "Kiwi Maru", serif;
+    font-weight: 400;
+    font-style: normal;      
+}
+
+.tarjetas{
+    padding: 30px;
+    margin: 10px; 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+}
+
+.btn-rojo {
+    background-color: #a03535;
+}
+i{
+    color: aliceblue;
 }
